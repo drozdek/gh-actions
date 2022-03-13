@@ -1,0 +1,24 @@
+{
+  "name": "gh-actions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "check": "C:/source/gh-actions/node_modules/.bin/prettier.cmd --check src/**/*.js",
+    "write": "C:/source/gh-actions/node_modules/.bin/prettier.cmd --write src/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drozdek/gh-actions.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/drozdek/gh-actions/issues"
+  },
+  "homepage": "https://github.com/drozdek/gh-actions#readme",
+  "dependencies": {
+    "prettier": "^2.5.1"
+  }
+}
