@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/prettier.cmd --check src/**/*.js",
-    "write": "./node_modules/.bin/prettier.cmd --write src/**/*.js"
+    "test": "prettier --check src/**/*.js",
+    "write": "prettier --write src/**/*.js"
   },
   "repository": {
     "type": "git",
