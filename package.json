@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "check": "C:/source/gh-actions/node_modules/.bin/prettier.cmd --check src/**/*.js",
-    "write": "C:/source/gh-actions/node_modules/.bin/prettier.cmd --write src/**/*.js"
+    "test": "./node_modules/.bin/prettier.cmd --check src/**/*.js",
+    "write": "./node_modules/.bin/prettier.cmd --write src/**/*.js"
   },
   "repository": {
     "type": "git",
