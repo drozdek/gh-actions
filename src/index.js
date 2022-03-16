@@ -1,1 +1,1 @@
-            document.title="  this is a document title"
+            document.title="  this is a document exemplary title "
