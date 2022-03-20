@@ -1,2 +1,2 @@
-var m = 12345;
+var m = 123456;
 module.exports  = m; 
