@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "prettier --check src/**/*.js",
+    "test": "jest",
+    "check": "prettier --check src/**/*.js",
     "write": "prettier --write src/**/*.js"
   },
   "repository": {
@@ -19,6 +20,7 @@
   },
   "homepage": "https://github.com/drozdek/gh-actions#readme",
   "dependencies": {
+    "jest": "^27.5.1",
     "prettier": "^2.5.1"
   }
 }
